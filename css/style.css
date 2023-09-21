@@ -14,8 +14,12 @@ body {
     background-color: white;
     
 }
+.float-left {
+	float: left;
+}
 
 .card {
+    float: left;
     background-color: #0F0E17;
     float: left;
     width: calc(100% / 3);
