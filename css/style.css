@@ -1,0 +1,37 @@
+/* generic page */
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+body {
+    background-color: white;
+    /* font */
+}
+
+.title {
+    background-color: white;
+    
+}
+
+.card {
+    background-color: #0F0E17;
+    float: left;
+    width: calc(100% / 3);
+}
+
+
+h1 { 
+    color: #E53170; 
+}
+
+h2, span { 
+    color: white; 
+}
+
+/* generic elements */
+.container {
+    width: 70%;
+    margin: auto;
+}
