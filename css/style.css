@@ -12,30 +12,47 @@ body {
 
 .title {
     background-color: white;
-    
+    text-align: center;
+    padding: 10px 0 15px 0;
+    width: 90% ;
 }
+
 .float-left {
-	float: left;
+    float: left;
 }
+
+.clearfix {
+    width: 100%;
+}
+
+.clearfix::after {
+	content: "";
+	clear: both;
+	display: table;
+}
+
 
 .card {
-    float: left;
     background-color: #0F0E17;
-    float: left;
     width: calc(100% / 3);
+    float: left;
 }
-
 
 h1 { 
     color: #E53170; 
+    font-size: 50px;
 }
 
-h2, span { 
+h3, span { 
     color: white; 
 }
 
 /* generic elements */
 .container {
-    width: 70%;
+    max-width: 1200px; /* solo per contenitore */
     margin: auto;
+}
+
+img {
+    width: 80px;
 }
